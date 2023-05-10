@@ -1,0 +1,117 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-family: Verdana, sans-serif;
+}
+
+:root 
+{
+	font-size: 16px;
+}
+
+#image-container 
+{
+	background-color: CadetBlue; 
+	margin: 20px 0;
+}
+
+.flex
+{
+	display: flex;
+}
+
+header 
+{
+	height: 60px;
+	width: 100%;
+	background-color: CadetBlue; 
+	position: fixed;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: DarkSlateGray 2px solid;
+	padding: 0 40px;
+}
+
+#links
+{
+	gap: 40px;
+	list-style-type: none;
+}
+
+body 
+{
+	background-color: #f0f4f4;
+}
+
+main
+{
+	padding-top: 80px;
+	width: 100%;
+	justify-content: center;
+	align-items: center
+}
+
+.column
+{
+	flex-direction: column;
+}
+
+p
+{
+	font-size: 1rem;
+  color:
+}
+
+h1
+{
+	margin-bottom: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.card_img
+{
+background-color: red;
+width: 180px;
+height: 180px;
+margin: 20px;
+}
+
+.card
+{
+  width: 250px;
+  height: 400px;
+  background-color: CadetBlue;
+  align-items: center;
+  border: DarkSlateGray 2px solid;
+  color: white;
+}
+
+#card-container
+{
+  gap: 100px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border: DarkSlateGray 2px solid;
+}
+
+button {
+  margin-top: 20px;
+  background-color: CadetBlue;
+  border: DarkSlateGray 2px solid;
+  padding: 20px
+}
