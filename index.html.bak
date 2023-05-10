@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Jack's Webpage</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	
+	<body>
+		
+		<header class="flex">
+			<h2 id="header-title">Jack's Webpage</h2>
+			<div>
+				<ul id="links" class="flex">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./pokedex.html">Pokedex</a></li>
+					<li><a href="">Games</a></li>
+					<li><a href="">History</a></li>
+				</ul>
+			</div>
+		</header>
+	
+	
+		<main class="flex column">
+			<h1>A Website about Pokemon</h1>
+			<p> 
+			This is a website about pokemon! There are 9 generations of Pokemon
+			games released currently with the current one being Pokemon Scarlet
+			and Pokemon Violet. While there have been a lot of games, my favorite
+			game has to be Pokemon Black and White 2.
+			</p>
+			<div id="image-container" class="flex">
+				<img id="image1" src="./B2_Boxart.jpg" alt="Black 2 Boxart">
+				<img id="image2" src="./W2_Boxart.png" alt="White 2 Boxart">
+				<img id="image3" src="./Marine_Tube.jpg" alt="The Marine Tube">
+			</div>
+			
+			<ul>
+				<li>Part 1: Story</li>
+				<li>Part 2: Gameplay</li>
+				<li>Part 3: Pokemon</li>
+			</ul
+			
+		</main>
+	</body>
+</html>
